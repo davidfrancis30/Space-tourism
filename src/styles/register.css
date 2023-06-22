@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .body {
+      background-image: url(../assets/background-home-desktop.jpg); 
+   background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;   
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+} 
+.main{
+     background-color: white;
+    overflow: scroll;
+    height: 82vh;
+    width: 90vh;
+    padding-left: 25px;
+}
+.space{
+    display: flex;
+        color: rgb(42, 42, 51);
+    justify-content: center;
+    margin: 7px 0  0  0 ;
+    font-family: serif;
+}
+
+.Links  {
+    font-family:  Open Sans Adjusted Arial, Tahoma, Geneva, sans-serif;
+width: 100%;
+     display: flex;
+     gap: 30px;
+     margin-left: 10px;
+}
+.link-a p {
+    
+     font-size: 19px;
+       text-decoration: none;
+       color: rgb(42, 42, 51);
+} 
+.link-a {
+      padding-bottom: 10px;
+     font-size: 19px;
+       text-decoration: none;
+       width: 13%;
+
+       
+} 
+.link-a:hover{
+    height: 47px;
+       border-bottom: 2px solid blue;
+} 
+
+.line{
+    border-bottom: 1px solid gray;
+    width: 97%;
+    
+}
+.error{
+  font-weight: bold;
+  margin: 10px 0 4px 0; 
+ 
+
+  color: red;
+}
+
+
+.inputinfo {
+    appearance: none;
+    width: 93%;
+    padding: 7px  16px;
+    background-color: rgb(246, 246, 250);
+    border: 1px solid rgb(209, 209, 213);
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: text;
+    outline: none;
+    box-shadow: none;
+    color: rgb(42, 42, 51);
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* height: auto;     */
+  /* border-color: rgb(0, 106, 255); */
+}
+
+ .inputinfo:active, .inputinfo:focus {
+    /* border-color: black;  */
+    border: 3px solid rgb(0, 106, 255);
+}
+
+
+.ptag {
+    color: rgb(42, 42, 51);
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 4px;
+    padding-top: 1rem;
+}
+
+.signin  {
+    /* margin-top: 0.4rem; */
+    width: 93%;
+    border-radius: 4px;
+    height: 3rem;
+    font-size: 18px;
+    background-color: red;
+    background-color: rgb(4, 54, 128);
+    border-color: rgb(13, 69, 153);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.reset {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ .reset2 {
+    text-decoration: none;
+    color: blue;
+     font-weight: 700;
+     font-size: 19px;
+     
+
+     /* padding-right: auto; */
+    /* border-bottom: 1px solid gray; */
+ }
+ .reset2:hover  {
+    text-decoration: underline;
+    color: rgb(57, 57, 189);
+     /* margin-top: 40px; */
+
+
+     
+ }
+
+ .border {
+        border-bottom: 1px solid gray;
+ }
+
+ .connect {
+    display: flex;
+    justify-content: center;
+    padding:  15px  20px 10px 0 ;
+       font-weight: 500;
+    font-size: 19px;
+ }
+
+  .apple{
+    margin-top: 9px;
+   width:93%;
+  display: flex;
+  padding: 0.875rem 1.75rem;
+font-size: 15px;
+   font-weight: 500;
+  letter-spacing: 0.3px;
+  font-family:    Google Sans,arial,sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+gap: 8.5rem;
+  transition: all .6s ease;
+  cursor: pointer;
+}
+
+ .apple:hover {
+  color: black;
+  background-color: white;
+  border:1px solid black;
+
+}
+
+ .apple svg {
+    width: 20px;
+}
+
+
+ .facebook{
+  width:93%;
+    margin: 15px 0;
+  display: flex;
+  padding: 0.875rem 1.75rem;
+  font-size: 15px;
+   font-weight: 500;
+  letter-spacing: 0.3px;
+  font-family:    Google Sans,arial,sans-serif;
+    background-color: rgb(13, 69, 153);
+    border-color: rgb(13, 69, 153);
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+  gap: 8.5rem;
+  transition: all .6s ease;
+  cursor: pointer;
+}
+
+.facebook:hover {
+
+    color: black;
+  background-color: white;
+  border:1px solid blue;
+}
+
+.facebook svg {
+    width: 20px;
+}
+
+
+
+ .google {
+ width:93%;
+  display: flex;
+  padding: 0.875rem 1.75rem;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-family:    Google Sans,arial,sans-serif;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+gap: 8.5rem;
+  cursor: pointer;
+}
+
+.google:hover {
+   border: 1px solid black;
+}
+
+.google svg {
+    width: 20px;
+}

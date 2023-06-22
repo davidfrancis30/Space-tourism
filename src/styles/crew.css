@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.crew {
+  background-image: url(../assets/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 100%; */
+  
+}
+
+.main-crew{
+  display: flex;
+  width: 100%;
+}
+   
+ .crew-left{
+    color: white;
+  width: 50%;
+  margin-left: 8rem;
+
+ }
+ .left-1 {
+  margin: 3rem 0 4rem 0;
+  font-size: x-large;
+ }
+ .left-2{
+  font-size: x-large;
+ }
+ .left-3{
+   margin: 1rem 0 1rem 0;
+   font-size:  60px;
+ }
+ .left-4{
+   font-size:  20px;
+ }
+
+.crew-right {
+  width: 50%;
+}
+.crew-right img{
+  margin-top: 4rem;
+  height: 68.8vh
+}
+.toggle{
+  display: flex;
+  gap: 2rem;
+  padding-top: 5rem;
+}
+
+.toggle p{
+  width: 20px;
+  background-color: white;
+  height: 20px;
+  border-radius: 100%;
+}

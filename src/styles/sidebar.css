@@ -1,0 +1,57 @@
+.sidebar{
+    width: 36vh;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: ; */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.card-header{
+    width: 17.4vw;
+    height: 10vh;
+      font-weight: bold;
+    padding: 1rem 1.35rem;
+    background-color: rgba(33, 40, 50, 0.03);
+      font-size: 20px;
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+/* .side-image{
+    width: 25vh;
+     border:  solid gray;
+     border-radius: 100%;
+     margin: 20px 100px 40px 30px;
+} */
+
+.side-links{
+     display: flex;
+     flex-direction: column;
+     /* gap: 20px; */
+
+}
+.side-linksA{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+     border-bottom: 1.5px solid gray;
+     padding: 20px 10px;
+     display: flex;
+     gap: 20px;
+
+    
+}
+.side-linksA:hover{
+background-color: rgb(157, 168, 182);
+}
+
+.sideIcon{
+ margin-top: 2px;
+ color: rgb(15, 15, 75);
+  font-weight: bold;
+    font-size: 26px;
+}
